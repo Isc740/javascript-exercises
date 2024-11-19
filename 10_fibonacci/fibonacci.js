@@ -7,6 +7,7 @@ const fibonacci = function (position) {
   let prevNum = 1;
   let temp = 1;
   let currentNum = 1;
+
   for (let i = 2; i <= position; i++) {
     if (i == position) {
       return currentNum;
